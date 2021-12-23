@@ -1,9 +1,7 @@
-import BuildIcon from '@mui/icons-material/Build';
-
 export default function SkillSet(){
     return(
         <div class="mt-5 mb-5">
-            <h1 class="p-3">skill set <BuildIcon /></h1>
+            <h1 class="p-3">./skill set</h1>
             <div class="container-fluid text-end">
                 <div class="row mt-5">
                     <div class="col-5">
