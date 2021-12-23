@@ -9,16 +9,16 @@ export default function Navbar(){
                 <div class="collapse navbar-collapse" id="navbarScroll">
                 <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                     <li class="nav-item me-3">
-                    <a class="nav-link" href="/">Home</a>
+                    <a class="nav-link" href="#">Home</a>
                     </li>
                     <li class="nav-item me-3">
-                    <a class="nav-link" href="/">About</a>
+                    <a class="nav-link" href="#about">About</a>
                     </li>
                     <li class="nav-item me-3">
-                    <a class="nav-link" href="/">Projects</a>
+                    <a class="nav-link" href="#projects">Projects</a>
                     </li>
                     <li class="nav-item me-3">
-                    <a class="nav-link" href="/">Contact</a>
+                    <a class="nav-link" href="#">Contact</a>
                     </li>
                 </ul>
                 </div>

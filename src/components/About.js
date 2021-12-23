@@ -1,6 +1,6 @@
 export default function About(){
     return(
-        <div class="conatiner about-container">
+        <div class="conatiner about-container" id="about">
             <div class="row about-row me-0 p-5 pb-0 pt-0">
                 <div class="col-sm-12 col-md-6 mt-5">
                     <h2>About Me</h2>

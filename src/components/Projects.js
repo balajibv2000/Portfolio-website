@@ -2,7 +2,7 @@ import ProjectItem from "./ProjectItem"
 
 export default function Projects(){
     return(
-        <div>
+        <div id="projects">
             <h1 class="p-3">./projects</h1>
             <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
                 <ol class="carousel-indicators">
