@@ -1,0 +1,148 @@
+.css-typing p {
+    border-right: .15em solid orange;
+    font-family: 'Roboto Mono', monospace;
+    font-size:xx-large;
+    white-space: nowrap;
+    overflow: hidden;
+  }
+  .css-typing p:nth-child(1) {
+    width: 1.8em;
+    opacity: 0;
+    -webkit-animation: type 1s steps(4);
+    animation: type 1s steps(4);
+    -webkit-animation-delay: 2s;
+    animation-delay: 2s;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+  }
+  
+  .css-typing p:nth-child(2) {
+    width: 6.5em;
+    opacity: 0;
+    -webkit-animation: type2 2s steps(11, end);
+    animation: type2 2s steps(11, end);
+    -webkit-animation-delay: 3s;
+    animation-delay: 3s;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+  }
+  
+  .css-typing p:nth-child(3) {
+    width: 8.5em;
+    opacity: 0;
+    -webkit-animation: type3 1s steps(13), blink .5s step-end infinite alternate;
+    animation: type3 1s steps(13), blink .5s step-end infinite alternate;
+    -webkit-animation-delay: 5s;
+    animation-delay: 5s;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+  }
+  
+  @keyframes type {
+    0% {
+      width: 0;
+    }
+    1% {
+        opacity: 1;
+      }
+    99.9% {
+      border-right: .15em solid orange;
+    }
+    100% {
+        opacity: 1;
+      border: none;
+    }
+  }
+  
+  @-webkit-keyframes type {
+    0% {
+      width: 0;
+    }
+    1% {
+        opacity: 1;
+      }
+    99.9% {
+      border-right: .15em solid orange;
+    }
+    100% {
+        opacity: 1;
+      border: none;
+    }
+  }
+  
+  @keyframes type2 {
+    0% {
+      width: 0;
+    }
+    1% {
+      opacity: 1;
+    }
+    99.9% {
+      border-right: .15em solid orange;
+    }
+    100% {
+      opacity: 1;
+      border: none;
+    }
+  }
+  
+  @-webkit-keyframes type2 {
+    0% {
+      width: 0;
+    }
+    1% {
+      opacity: 1;
+    }
+    99.9% {
+      border-right: .15em solid orange;
+    }
+    100% {
+      opacity: 1;
+      border: none;
+    }
+  }
+  
+  @keyframes type3 {
+    0% {
+      width: 0;
+    }
+    1% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+  @-webkit-keyframes type3 {
+    0% {
+      width: 0;
+    }
+    1% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+  @keyframes blink {
+    50% {
+      border-color: transparent;
+    }
+  }
+  @-webkit-keyframes blink {
+    50% {
+      border-color: tranparent;
+    }
+  }
+
+  .fa-star{
+    font-size: 3.5vw;
+    margin-right: 2vw;
+    color: #4B5D67;
+  }
+
+  .checked{
+    color:	#ffd700;
+  }

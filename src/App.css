@@ -1,0 +1,40 @@
+.App {
+  text-align: center;
+  color: white;
+  background-color: black;
+}
+
+h1{
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+
+h3{
+  font-weight: 100;
+  letter-spacing: 2px;
+}
+
+.navbar-brand{
+  font-family: 'Gluten', cursive;
+}
+
+.about-container{
+  background-color: black;
+  padding-top: 150px;
+  height: 700px;
+}
+
+.about-row{
+  color: #030e12;
+  background-color: #5bccf6;
+  height: 200px;
+}
+
+.content{
+  color: #030e12;
+  background-color: #fcde67;
+  height: 300px;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
