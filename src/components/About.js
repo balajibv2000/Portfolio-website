@@ -2,11 +2,11 @@ export default function About(){
     return(
         <div class="conatiner about-container" id="about">
             <div class="row about-row me-0 p-5 pb-0 pt-0">
-                <div class="col-sm-12 col-md-6 mt-5">
+                <div class="col-sm-6 col-md-3 mt-5">
                     <h2>About Me</h2>
                 </div>
-                <div class="col-sm-12 col-md-6 mt-5 position-relative content">
-                    <p class="fs-5 para text-center text-md-start text-lg-start text-xl-start p-5">I am a student perceiving B.Tech in Computer
+                <div class="col-sm-12 col-md-8 mt-5 position-relative content">
+                    <p class="para text-center text-md-start text-lg-start text-xl-start p-5">I am a student perceiving B.Tech in Computer
 Science Engineering. I have learnt the basics of
 computers and computing.
 Programming and designing websites and apps
