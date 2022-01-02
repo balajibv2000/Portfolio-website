@@ -6,7 +6,14 @@ export default function About(){
                     <h2>About Me</h2>
                 </div>
                 <div class="col-sm-12 col-md-6 mt-5 position-relative content">
-                    <p class="fs-5 para text-center text-md-start text-lg-start text-xl-start p-5">Lorem ipsum dolor sit amet. Est recusandae dolores hic alias quas et tempora obcaecati qui rerum exercitationem aut nesciunt maiores ea alias exercitationem. Aut deleniti mollitia sit voluptatum nemo eum rerum molestias 33 facere odit qui laboriosam quia.</p>
+                    <p class="fs-5 para text-center text-md-start text-lg-start text-xl-start p-5">I am a student perceiving B.Tech in Computer
+Science Engineering. I have learnt the basics of
+computers and computing.
+Programming and designing websites and apps
+are my passion. I feel that websites and apps are
+the best way we can convey our thoughts and
+emotions to an individual or a group of
+individuals.</p>
                 </div>
             </div>
         </div>

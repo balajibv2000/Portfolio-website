@@ -2,6 +2,8 @@ import Navbar from './Navbar'
 import SkillSet from './SkillSet'
 import About from './About'
 import Projects from './Projects'
+import Contact from './Contact'
+import Experience from './Experience'
 import design from '../img/design.gif'
 import './Home.css'
 
@@ -34,6 +36,8 @@ export default function Home(){
         <SkillSet />
         <About />
         <Projects />
+        <Experience />
+        <Contact />
         </div>
     )
 }

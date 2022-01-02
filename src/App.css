@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@500&display=swap');
+
 .App {
   text-align: center;
   color: white;
@@ -18,7 +20,7 @@ h3{
 }
 
 .navbar-brand{
-  font-family: 'Gluten', cursive;
+  font-family: 'Karla', sans-serif;
 }
 
 .about-container{
@@ -39,4 +41,8 @@ h3{
   height: 300px;
   border-radius: 5px;
   box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+.projects{
+  background: linear-gradient(to bottom right, rgba(0,0,0, 0.9), rgba(36,11,54, 0.8), rgba(195,20,50,0.9)), url("https://wallpapercave.com/wp/8848ami.jpg") center no-repeat;
 }
