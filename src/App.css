@@ -26,7 +26,7 @@ h3{
 .about-container{
   background-color: black;
   padding-top: 150px;
-  height: 700px;
+  height: 600px;
 }
 
 .about-row{
@@ -44,7 +44,7 @@ h3{
 }
 
 .para{
-  font-size: 2.8vmin;
+  font-size: 3.5vmin;
 }
 
 .projects{

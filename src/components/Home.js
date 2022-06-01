@@ -1,11 +1,12 @@
 import Navbar from './Navbar'
 import SkillSet from './SkillSet'
 import About from './About'
+import Toolbox from './Toolbox'
 import Projects from './Projects'
 import Contact from './Contact'
 import Experience from './Experience'
 import design from '../img/design.gif'
-import './Home.css'
+import './css/Home.css'
 
 export default function Home(){
     return(
@@ -33,9 +34,10 @@ export default function Home(){
                 </div>
             </div> 
         </div>
-        <SkillSet />
         <About />
+        <Toolbox />
         <Projects />
+        <SkillSet />
         <Experience />
         <Contact />
         </div>

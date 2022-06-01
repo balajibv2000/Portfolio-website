@@ -40,10 +40,10 @@ export default function Contact(){
                 <a href="mailto:balaji.bv2000@gmail.com"><p>balaji.bv2000@gmail.com</p></a>
                 <h3>Find Me On </h3>
                 <div class="contact-links">
-                    <a><span class="fab"><FontAwesomeIcon icon={faLinkedin} /></span></a>
-                    <a><span class="fab"><FontAwesomeIcon icon={faGithub} /></span></a>
-                    <a><span class="fab"><FontAwesomeIcon icon={faTwitter} /></span></a>
-                    <a><span class="fab"><FontAwesomeIcon icon={faInstagram} /></span></a>
+                    <a href='https://www.linkedin.com/in/balaji-b-v-b31aba113/'><span class="fab"><FontAwesomeIcon icon={faLinkedin} /></span></a>
+                    <a href='https://github.com/balajibv2000'><span class="fab"><FontAwesomeIcon icon={faGithub} /></span></a>
+                    <a href='https://twitter.com/BalajiBv2000'><span class="fab"><FontAwesomeIcon icon={faTwitter} /></span></a>
+                    <a href='https://www.instagram.com/balaji_bv2000/'><span class="fab"><FontAwesomeIcon icon={faInstagram} /></span></a>
                 </div>
             </div>
             </div>

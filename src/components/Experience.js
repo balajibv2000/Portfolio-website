@@ -11,7 +11,7 @@ export default function Experience(){
                 <div className="exp-card">
                     <img src={CuriousJr} />
                     <h3>Software Developer | Intern</h3>
-                    <p>November 2021 - Present</p>
+                    <p>November 2021 - Febuary 2022</p>
                 </div>
             </div>
         </div>

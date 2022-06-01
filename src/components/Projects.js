@@ -1,5 +1,7 @@
 import ProjectItem from "./ProjectItem"
 import Car from '../img/car.jpeg'
+import SimpleMario from '../img/SimpleMario.png'
+import WebChat from '../img/webChat.png'
 import DrumKit from '../img/drumKit.png'
 import Train from '../img/train.jpeg'
 import Simon from '../img/simon.png'
@@ -26,11 +28,19 @@ export default function Projects(){
                     </div>
                     <div class="carousel-item">
                         <ProjectItem 
-                                projectName = "Drum Kit"
-                                description = "A simple website for playing instruments in a drum kit and built using HTML, CSS, JavaScript."
-                                image = {DrumKit}
-                                website = "https://balajibv2000.github.io/Drum-kit/"
-                                code = "https://github.com/balajibv2000/Drum-kit"
+                                projectName = "SimpleMario"
+                                description = " Simple Mario is a 2D android game based on a popular game series Super Mario developed by Nintendo. "
+                                image = {SimpleMario}
+                                code = "https://github.com/balajibv2000/simple-mario"
+                            />
+                    </div>
+                    <div class="carousel-item">
+                        <ProjectItem 
+                                projectName = "WebChat"
+                                description = " A real-time chat application built using react and deployed on firebase. "
+                                image = {WebChat}
+                                website = "https://webchat-bv-ca0a6.web.app/"
+                                code = "https://github.com/balajibv2000/webChat"
                             />
                     </div>
                     <div class="carousel-item">
@@ -58,6 +68,15 @@ export default function Projects(){
                                 image = {Design}
                                 website = "https://balajibv2000.github.io/Portfolio-website/"
                                 code = "https://github.com/balajibv2000/Portfolio-website"
+                            />
+                    </div>
+                    <div class="carousel-item">
+                        <ProjectItem 
+                                projectName = "Drum Kit"
+                                description = "A simple website for playing instruments in a drum kit and built using HTML, CSS, JavaScript."
+                                image = {DrumKit}
+                                website = "https://balajibv2000.github.io/Drum-kit/"
+                                code = "https://github.com/balajibv2000/Drum-kit"
                             />
                     </div>
                 </div>
